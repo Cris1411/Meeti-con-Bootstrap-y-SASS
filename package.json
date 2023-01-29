@@ -4,7 +4,8 @@
   "description": "Aprendiendo Bootstrap5 y SASS",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "build:sass": "purgecss -css build/css/style.css -con index.html -o build/css/meeti.css"
   },
   "author": "Cristian R. Sanchez",
   "license": "ISC",
